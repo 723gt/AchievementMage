@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>成績管理システム</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="./css/custom.css">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center"> 
+        成績参照 
+      </h1>
+    </div>
+    <hr>
+    <form>
+      <div class="table alt-tabel-responsive">
+        <table class="table table-striped text-center">
+          <tr><td></td><td> 検索項目 </td><td></td><td></td></tr>
+          <tr>
+            <td> 検索範囲 </td>
+              <td><label><input type="radio" name="yera"> 学年</label> </td>
+              <td><label><input type="radio" name="clases">クラス</label></td>
+              <td><label><input type="radio" name="student">個人</label></td>
+          </tr>
+          <tr>
+            <td>学年</td>
+            <td></td>
+            <td>
+              <select>
+                <option value="other">未指定</option>
+                <option value="1">1年</option>
+                <option value="2">2年</option>
+                <option value="3">3年</option>  
+              </select>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>クラス</td>
+            <td></td>
+            <td>
+              <select>
+                <option value="other">未指定</option>
+                <option value="1">1組</option>
+                <option value="2">2組</option>
+                <option value="3">3組</option>  
+              </select>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>学籍番号</td>
+            <td></td>
+            <td>
+              <label>学籍番号:<input type="text" name="stNo"></label>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>
+              <input type="submit" name="serche" value="検索">
+            </td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

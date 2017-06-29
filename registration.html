@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>成績管理システム</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="./css/custom.css">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center"> 
+        成績登録 
+      </h1>
+    </div>
+    <hr>
+    <form>
+      <div class="table tabel-responsive">
+        <table class="table table-striped text-center">
+          <tr>
+            <td>学期</td>
+            <td>
+              <label>前期<input type="radio" name="first"></label>
+            </td>
+            <td>
+              <label>後期<input type="radio" name="last"></label>
+            </td>
+
+          </tr>
+          <tr>
+            <td>学年</td>
+            <td></td>
+            <td>
+              <select>
+                <option value="1">1年</option>
+                <option value="2">2年</option>
+                <option value="3">3年</option>  
+              </select>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>クラス</td>
+            <td></td>
+            <td>
+              <select>
+                <option value="1">1組</option>
+                <option value="2">2組</option>
+                <option value="3">3組</option>  
+              </select>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>学籍番号</td>
+            <td></td>
+            <td>
+              <label>学籍番号:<input type="text" name="stNo"></label>
+            </td>
+            <td></td>
+          </tr>
+           <tr>
+            <td>氏名</td>
+            <td></td>
+            <td>
+              <label>氏名:<input type="text" name="stName"></label>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>科目A</td>
+            <td></td>
+            <td>
+              <label>点数:<input type="text" name="AP"></label>
+            </td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>科目B</td>
+            <td></td>
+            <td>
+              <label>点数:<input type="text" name="AP"></label>
+            </td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>科目C</td>
+            <td></td>
+            <td>
+              <label>点数:<input type="text" name="AP"></label>
+            </td>
+            <td></td>
+          <tr>
+          <tr>
+            <td>科目D</td>
+            <td></td>
+            <td>
+              <label>点数:<input type="text" name="AP"></label>
+            </td>
+            <td></td>
+          <tr>
+          <tr>
+            <td>科目E</td>
+            <td></td>
+            <td>
+              <label>点数:<input type="text" name="AP"></label>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <div class="submit text-center">
+          <input type="submit" name="serche" value="登録">
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
