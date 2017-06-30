@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="./css/custom.css">
   <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <script type="text/javascript" herf="jquery-3.1.0.min.js"></script>
 </head>
 <body>
   <div class="container">
@@ -18,7 +19,7 @@
       </h1>
     </div>
     <hr>
-    <form>
+    <form action="./sercheres.html">
       <div class="table alt-tabel-responsive">
         <div class="scorp text-center">
           <label>検索項目</label>
@@ -26,9 +27,9 @@
         <table class="table table-striped text-center">
           <tr>
             <td> 検索範囲 </td>
-              <td><label><input type="radio" name="yera"> 学年</label> </td>
-              <td><label><input type="radio" name="clases">クラス</label></td>
-              <td><label><input type="radio" name="student">個人</label></td>
+              <td><label><input type="radio" name="yera" value="year"> 学年</label> </td>
+              <td><label><input type="radio" name="clases" value="clases">クラス</label></td>
+              <td><label><input type="radio" name="student" value="student">個人</label></td>
           </tr>
           <tr>
             <td>学年</td>
@@ -66,7 +67,9 @@
           </tr>
         </table>
         <div class="submit text-center">
+           <input type="button" name="serche" value="戻る" onclick="location.href='./index.html'"> &nbsp;&nbsp;
            <input type="submit" name="serche" value="検索">
+        </div>
         </div>
       </div>
     </form>
