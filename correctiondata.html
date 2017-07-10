@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>成績管理システム</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="./css/custom.css">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <h1 class="col-md-offset-5 col-md-4"> 
+        成績登録 
+      </h1>
+      <br>
+      <h4 class="col-md-offset-1 col-md-2">
+        教員 太郎:教科A
+      </h4>
+    </div>
+
+    <hr>
+    <form>
+      <div class="table tabel-responsive">
+        <table class="table table-striped text-center">
+          <tr>
+            <td>学年</td>
+            <td></td>
+            <td>
+              <label>1年</label>  
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>クラス</td>
+            <td></td>
+            <td>
+              <label>1組</label>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>学籍番号</td>
+            <td></td>
+            <td>
+              <label>学籍番号:0000001</label>
+            </td>
+            <td></td>
+          </tr>
+           <tr>
+            <td>氏名</td>
+            <td></td>
+            <td>
+              <label>氏名:神戸 太郎</label>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>教科A</td>
+            <td></td>
+            <td>
+              <label>点数:<input type="text" name="AP" value="80"></label>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <div class="submit text-center">
+          <input type="button" name="serche" value="戻る" onclick="location.href='./index.html'"> &nbsp;&nbsp;
+          <input type="button" name="serche" value="続けて登録" onclick="location.href='./check2next.html'"> <br><br>
+          <input type="button" name="serche" value="登録して終了" onclick="location.href='./check.html'">
+        </div>
+        <div class="back text-center">
+          
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

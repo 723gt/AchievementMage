@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>成績管理システム</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="./css/custom.css">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <h1 class="col-md-offset-5 col-md-4"> 
+        成績修正 
+      </h1>
+      <br>
+      <h4 class="col-md-offset-1 col-md-2">
+        教員 太郎:教科A
+      </h4>
+    </div>
+
+    <hr>
+    <form>
+      <div class="table tabel-responsive">
+        <table class="table table-striped text-center">
+          <tr>
+            <td>修正する学生の学籍番号</td>
+            <td>
+              <label>学籍番号:<input type="text" name="last"></label>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <div class="submit text-center">
+          <input type="button" name="serche" value="戻る" onclick="location.href='./index.html'"> &nbsp;&nbsp;
+          <input type="button" name="serche" value="修正" onclick="location.href='./correctiondata.html'"> <br><br>
+        </div>
+        <div class="back text-center">
+          
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
