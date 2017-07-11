@@ -14,7 +14,7 @@
   <div class="container">
     <div class="row">
       <h1 class="col-md-offset-5 col-md-4"> 
-        成績修正 
+        成績登録 
       </h1>
       <br>
       <h4 class="col-md-offset-1 col-md-2">
@@ -27,38 +27,54 @@
       <div class="table tabel-responsive">
         <table class="table table-striped text-center">
           <tr>
+            <td>学期</td>
+            <td>
+              <label>前期<input type="radio" name="first"></label>
+            </td>
+            <td>
+              <label>後期<input type="radio" name="last"></label>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
             <td>学年</td>
+            <td></td>
             <td>
               <select class="level">
                 <option value="1">1年</option>
                 <option value="2">2年</option>
-                <option value="3">3年</option>
+                <option value="3">3年</option>  
               </select>
             </td>
+            <td></td>
           </tr>
           <tr>
             <td>クラス</td>
+            <td></td>
             <td>
-              <select class="clases">
+              <select>
                 <option value="1">1組</option>
                 <option value="2">2組</option>
-                <option value="3">3組</option>
+                <option value="3">3組</option>  
               </select>
             </td>
+            <td></td>
           </tr>
           <tr>
-            <td>教科</td>
-            <td>
-              <select class="subject">
-                <option value="A">教科A</option>
-                <option value="B">教科B</option>
-              </select>
-            </td>
-          </tr>
+              <td>担当教科</td>
+              <td></td>
+              <td>
+                  <select>
+                      <option value="A">教科A</option>
+                      <option value="B">教科B</option>
+                  </select>
+              </td>
+              <td></td>
+          </tr>                                   
         </table>
         <div class="submit text-center">
           <input type="button" name="serche" value="戻る" onclick="location.href='./index.html'"> &nbsp;&nbsp;
-          <input type="button" name="serche" value="修正" onclick="location.href='./correctiondata.html'"> <br><br>
+          <input type="button" name="serche" value="決定" onclick="location.href='./registration.html'">
         </div>
         <div class="back text-center">
           
